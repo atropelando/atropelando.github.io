@@ -34,7 +34,7 @@
 		color: $secondary-color;
 		font-family: $font-stack;
 		font-size: 1.5rem;
-		margin: 0 1rem;
+		margin: 0 0.8rem;
 		@include mobile-only {
 			font-size: 1.25rem;
 			text-align: center;

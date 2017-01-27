@@ -25,7 +25,11 @@
 
 .nav-menu {
 	@include center-all();
+	
 	margin-top: 12rem;
+	width: 100vw;
+	text-align: center;
+
 	@include mobile-only {
 		margin-top: 10rem;
 	}
@@ -34,10 +38,9 @@
 		color: $secondary-color;
 		font-family: $font-stack;
 		font-size: 1.5rem;
-		margin: 0 0.8rem;
+		margin: 0 1.5rem;
 		@include mobile-only {
 			font-size: 1.25rem;
-			text-align: center;
 			margin: 0.5rem auto;
 			display: block;
 		}

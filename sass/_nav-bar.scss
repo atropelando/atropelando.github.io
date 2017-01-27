@@ -23,6 +23,7 @@
 	img {
 		float: left;
 		height: 100%;
+		margin-left: 0.5rem;
 		@include mobile-only {
 			width: 0px;
 			height: 0px;
@@ -40,20 +41,17 @@
 	.nav-btn {
 		float: right;
 
-		margin: auto 1rem;
-
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
 
 		@include mobile-only {
 			float: none;
 
 			//font-weight: normal;
-			font-size: 0.75rem;
-			margin: auto 0.15rem;
+			font-size: 0.85rem;
 
-			padding-left: 0.15rem;
-			padding-right: 0.15rem;
+			padding-left: 0.3rem;
+			padding-right: 0.3rem;
 		}
 
 		&:hover {

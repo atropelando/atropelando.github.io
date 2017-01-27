@@ -33,7 +33,7 @@
 	span {
 		font-size: 2rem;
 		margin-left: 1.5rem;
-		@include mobile-only {
+		@include tablet-landscape-and-below  {
 			display: none;
 		}
 	}
@@ -44,14 +44,14 @@
 		padding-left: 2rem;
 		padding-right: 2rem;
 
-		@include mobile-only {
+		@include tablet-landscape-and-below  {
 			float: none;
 
 			//font-weight: normal;
-			font-size: 0.85rem;
+			font-size: 3vw;
 
-			padding-left: 0.3rem;
-			padding-right: 0.3rem;
+			padding-left: 1vw;
+			padding-right: 1vw;
 		}
 
 		&:hover {

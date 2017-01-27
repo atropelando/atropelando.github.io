@@ -58,7 +58,7 @@ body {
 		font-family: $font-stack;
 		line-height: 1.5em;
 		@include mobile-only {
-			font-size: 0.8rem
+			font-size: 0.75rem
 		}
 	}
 

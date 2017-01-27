@@ -11,9 +11,9 @@
 	color: $primary-color;
 	text-align: center;
 	font-family: $font-titles;
-	font-size: 7rem;
+	font-size: 10vw;
 	@include mobile-only {
-		font-size: 3rem;
+		font-size: 14vw;
 	}
 	max-width: 90vw;
 
